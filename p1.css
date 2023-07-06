@@ -1,0 +1,436 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "vaziri";
+    src: url(fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff2) format("woff2"),
+    url(fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff) format("woff"),
+    url(fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.ttf)format("ttf");
+}
+#main{
+    /* display: flex; */
+    /* flex-direction: column; */
+    font-family: "vaziri",sans-serif;
+}
+#headerSite{
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    box-shadow: 1px 0px 15px 1px;
+    z-index: 2;
+    background-color: white;
+    
+
+
+
+}
+
+.social{
+    display: none;
+}
+.info1{
+    display: none;
+}
+
+#item9{
+    display:none;
+    }
+ /* maincontent------------------ */
+ #main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px 0px;
+    
+    /* height: calc(100vh - 63px); */
+    min-height: calc(100vh - 49px);;
+    background-image: url("images.jpg");
+    /* position: relative; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+#extraInfo{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: aliceblue;
+   
+    height:2rem;
+    width: 7rem;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+#extraInfo:hover{
+    background-color: aliceblue;
+    color: blueviolet;
+    border:1px solid
+}
+
+ /* maedia---------------------- */
+
+@media(min-width:820px){
+    @font-face {
+        font-family: "vaziri";
+        src: url(fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff2) format("woff2"),
+        url(fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff) format("woff"),
+        url(fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.ttf)format("ttf");
+    }
+    #main{
+        /* display: flex; */
+        /* flex-direction: column; */
+        font-family: "vaziri",sans-serif;
+    }
+
+    #headerSite{
+        display: flex;
+        flex-wrap: wrap;
+        position: sticky;
+        top: 0%;
+        left: 0%;
+        justify-content: space-between;
+        /* padding-top: 20px; */
+        padding-bottom: 20px;
+        /* margin-bottom: 20px; */
+        box-shadow: 1px 0px 15px 1px;
+        z-index: 2;
+        background-color: white;
+        /* min-width: 814px; */
+
+
+
+    }
+    .social{
+        display: flex;
+    }
+    .info1{
+        display: flex;
+    }
+    .headerbox{
+        display: flex;
+       
+        flex-grow: 0;
+        flex-shrink: 0;
+        /* flex-basis: calc(33% - 1rem); */
+        flex-basis:20%;
+        /* background-color: aqua; */
+        
+        
+
+
+    }
+    #headerMenu{
+
+        display: none;
+
+    }
+    #headerSocial{
+        justify-content:space-evenly;
+        padding-top: 20px;
+    }
+    .social{
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: calc(33% - 2px);
+        /* background-color: brown; */
+        text-align: center;
+    }
+    #headerInfo{
+        justify-content: space-between;
+          min-width: 340px;
+          padding-top: 20px;
+    }
+    .info1{
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: calc(20% - 2px);
+        /* background-color: brown; */
+        text-align: center;
+      
+    }
+
+    #headerNameWebsite{
+        justify-content: right;
+        padding-top: 15px;
+        padding-right: 20px;
+        /* padding-top: 15px; */
+    }
+    
+    #item9{
+    display:flex;
+    }
+    #item10{
+        display: none;
+        }
+    
+    
+    #main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 10px 0px;
+        
+        /* height: calc(100vh - 63px); */
+        min-height: calc(100vh - 63px);;
+        background-image: url("images.jpg");
+        /* position: relative; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+
+    }
+
+    #extraInfo{
+        cursor: pointer;
+        text-decoration: none;
+        background-color: blueviolet;
+        color: aliceblue;
+       
+        height:2rem;
+        width: 7rem;
+        border-radius: 5px;
+        text-align: center;
+        padding-top: 5px;
+        margin-bottom: 10px;
+    }
+    #extraInfo:hover{
+        background-color: aliceblue;
+        color: blueviolet;
+        border:1px solid
+    }
+
+    #hedearInfo{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+        padding-top: 20px;
+        /* justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 40px; */
+     
+    }
+    #centerContent{
+        display: flex;
+        /* height:calc(80vh - 88px); */
+        justify-content: space-between;
+        
+        
+    }
+    #infoContent{
+        justify-content: center;
+        display: flex;
+        padding-right: 2rem;
+        flex-direction: column;
+        /* flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: calc(45%); */
+        flex: 1;
+        
+        
+        
+    }
+    #headerContent{
+    padding-bottom: 10px;
+    padding-top: 40px;
+    direction: rtl;
+    }
+    #pContent{
+        direction:rtl;
+        flex-grow: 0;
+        flex-shrink: 0;
+        padding-left: 30px;
+       
+        
+    }
+    #imgInfo{
+        
+
+        justify-content: center;
+
+        background-image: url("unnamed.png");
+        background-size: cover;
+        background-position: center center;
+        padding-left: 10px;
+        /* height: 60vh; */
+        /* height: 50vw; */
+        /* height: 400px;
+        width: 650px; */
+        flex: 1;
+        /* flex-grow: 60%; */
+    }
+    #extraInfo2{
+        cursor: pointer;
+        text-decoration: none;
+        background-color: blueviolet;
+        color: aliceblue;
+       
+        height:2rem;
+        width: 7rem;
+        border-radius: 5px;
+        text-align: center;
+        padding-top: 5px;
+
+    }
+    #button2info{
+        margin-top: 20px;
+        display: flex;
+        justify-content: right;
+        margin-bottom: 2rem;
+
+    }
+    #mainService{
+        display: flex;
+        flex-direction: column;
+        /* background-color: #E1E1E1; */
+        align-items: center;
+        justify-content: stretch;
+        padding-bottom: 40px;
+    margin:100px;
+        /* background-color: aquamarine; */
+        
+        /* height: 40vh; */
+        /* flex-shrink: 0; */
+    }
+    #headerService{
+        margin-top: 30px;
+    }
+    #contentService{
+        display: flex;
+        margin-top: 30px;
+        /* flex: 0 0 calc(30% - 1rem); */
+        /* gap:20px ; */
+        text-align: right;
+        background-color: white;
+    }
+    #service1{
+        display: flex;
+        /* background-color: brown; */
+        /* flex: 0 0 calc(50% - 1rem);  */
+        
+    }
+    #service2{
+        display: flex;
+        /* background-color: brown; */
+        /* flex: 0 0 calc(50% - 1rem);  */
+        
+    }
+    #service3{
+        display: flex;
+        /* background-color: brown; */
+        /* flex: 0 0 calc(50% - 1rem);  */
+    }
+    .serviceBox{
+        flex: 1;
+        font-size: small;
+        padding-left: 30px;
+
+    }
+    .imgesService{
+        
+        background-size: cover;
+        background-position: center center;
+        max-width: 175px;
+        min-height: 80px;
+    }
+      #image3{
+        background-image: url("./images/download2.png");
+      }
+      #image2{
+        background-image: url("./images/download1.png");
+      }
+      #image1{
+        background-image: url("./images/download2.png");
+      }
+      #mainArticles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+        margin-top: 60px;
+        
+      }
+      #headerArticle{
+        display: flex;
+        padding-bottom: 20px;
+       
+      }
+      #contactArticles{
+        display: flex;
+        border-radius: 20px;
+        justify-content: space-around;
+        width: 100%;
+      }
+      .articles{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 350px;
+       
+        text-decoration: none;
+        color: black;
+        background-color: #E6E3D3;
+        box-shadow: 1px 1px 5px 1px #E6E3D3;
+
+      }
+      .articles:hover{
+        width: 270px;
+        height: 370px;
+        /* color: white; */
+        background-color: #BFBDB0;
+        box-shadow: 1px 1px 5px 1px #BFBDB0;
+      }
+      .imgArticles{
+       /* background-color: brown; */
+        background-image: url("./images/book1.jpg");
+        background-size: cover;
+        background-position: center center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+ 
+        
+        flex: 30%;
+      }
+      .infoArticles{
+        display: flex;
+        padding-top: 10px;
+        padding-right: 10px;
+        align-items:flex-end;
+        flex-direction: column;
+        flex: 1;
+       
+        
+      }
+      .contactInfoArticles{
+        display: flex;
+        /* gap: 0px 10px; */
+        /* padding-right: 0px; */
+        width: 100%;
+        padding-top: 5px;
+        padding-left: 10px;
+        font-size: small;
+        justify-content: space-between;
+      }
+      .contact3{
+        display: flex;
+      }
+
+      .contact3-last{
+      padding-right: 3px;
+      }
+}
