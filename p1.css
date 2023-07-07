@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     box-sizing: border-box;
+    /* min-width:460px; */
 }
 @font-face {
     font-family: "vaziri";
@@ -38,10 +39,17 @@
 .info1{
     display: none;
 }
+.info1:hover{
+    color: #D05BC0;
+    cursor: pointer;
+}
 
 #item9{
     display:none;
     }
+#item10{
+    color: #D05BC0;
+}
  /* maincontent------------------ */
  #main-content{
     display: flex;
@@ -72,12 +80,271 @@
     text-align: center;
     padding-top: 5px;
     margin-bottom: 10px;
+    margin-top: 15px;
+}
+#extraInfo:hover{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: aliceblue;
+    color: blueviolet;
+    border: 2px black solid;
+   
+    height:2.3rem;
+    width: 7.5rem;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    margin-top: 15px;
 }
 #extraInfo:hover{
     background-color: aliceblue;
     color: blueviolet;
     border:1px solid
 }
+
+/* info------------------------------------------ */
+ #info{
+    margin: 0px 30px;
+}
+ 
+#hedearInfo2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+
+ 
+}
+
+#centerContent{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    
+    
+    
+}
+ 
+
+#infoContent{
+    justify-content: center;
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 1;
+    
+    
+    
+}
+
+#headerContent{
+padding-bottom: 10px;
+padding-top: 40px;
+direction: rtl;
+margin: 0 auto;
+}
+
+#pContent{
+    direction:rtl;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+   
+    
+}
+
+#imgInfo{
+    
+
+    justify-content: center;
+
+    background-image: url("unnamed.png");
+    background-size: cover;
+    background-position: center center;
+    padding-left: 10px;
+    min-width: 370px;
+    height: 370px;
+
+}
+
+#extraInfo2{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: aliceblue;
+   
+    height:2rem;
+    width: 7rem;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+#extraInfo2:hover{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: aliceblue;
+    color: blueviolet;
+    border: 2px black solid;
+   
+    height:2.3rem;
+    width: 7.5rem;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+#button2info{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+} 
+#mainService{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    padding-bottom: 40px;
+margin:100px;
+
+}
+#headerService{
+    margin-top: 30px;
+}
+#contentService{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: right;
+    background-color: white;
+}
+#service1{
+    display: flex;   
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+#service2{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+#service3{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+.serviceBox{
+    flex: 1;
+    font-size: small;
+    padding-left: 30px;
+    text-align: center;
+
+}
+.imgesService{
+    
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    min-height: 200px;
+}
+  #image3{
+    background-image: url("./images/download2.png");
+  }
+  #image2{
+    background-image: url("./images/download1.png");
+  }
+  #image1{
+    background-image: url("./images/download2.png");
+  }
+  /* articles-------------------------------------- */
+  #mainArticles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    
+  }
+  #headerArticle{
+    display: flex;
+    padding-bottom: 20px;
+   
+  }
+  #contactArticles{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    /* justify-content: space-between; */
+    gap: 60px;
+    align-items: center;
+    width: 100%;
+  }
+  .articles{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 350px;
+   
+    text-decoration: none;
+    color: white;
+    background-color: #F374E2;;
+    border-radius: 9px;
+
+  }
+  .articles:hover{
+    width: 270px;
+    height: 370px;
+    
+    background-color: #D05BC0;
+    box-shadow: 1px 1px 5px 1px #D05BC0;
+  }
+  .imgArticles{
+   /* background-color: brown; */
+    background-image: url("./images/purple.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+    
+    flex: 30%;
+  }
+  .infoArticles{
+    display: flex;
+    padding-top: 10px;
+    padding-right: 10px;
+    align-items:flex-end;
+    flex-direction: column;
+    flex: 1;
+   
+    
+  }
+  .contactInfoArticles{
+    display: flex;
+    /* gap: 0px 10px; */
+    /* padding-right: 0px; */
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 10px;
+    font-size: small;
+    justify-content: space-between;
+  }
+  .contact3{
+    display: flex;
+  }
+
+  .contact3-last{
+  padding-right: 3px;
+  }
 
  /* maedia---------------------- */
 
@@ -100,14 +367,13 @@
         position: sticky;
         top: 0%;
         left: 0%;
-        justify-content: space-between;
-        /* padding-top: 20px; */
+
         padding-bottom: 20px;
-        /* margin-bottom: 20px; */
+
         box-shadow: 1px 0px 15px 1px;
         z-index: 2;
         background-color: white;
-        /* min-width: 814px; */
+
 
 
 
@@ -117,6 +383,11 @@
     }
     .info1{
         display: flex;
+        cursor: pointer;
+    }
+    .info1:hover{
+        color: #D05BC0;
+
     }
     .headerbox{
         display: flex;
@@ -143,20 +414,18 @@
     .social{
         flex-grow: 0;
         flex-shrink: 0;
-        flex-basis: calc(33% - 2px);
-        /* background-color: brown; */
         text-align: center;
     }
     #headerInfo{
-        justify-content: space-between;
-          min-width: 340px;
+        justify-content: space-around;
+
           padding-top: 20px;
+          flex-grow: 1;
     }
     .info1{
         flex-grow: 0;
         flex-shrink: 0;
-        flex-basis: calc(20% - 2px);
-        /* background-color: brown; */
+
         text-align: center;
       
     }
@@ -170,6 +439,7 @@
     
     #item9{
     display:flex;
+    color: #D05BC0;
     }
     #item10{
         display: none;
@@ -212,22 +482,23 @@
         color: blueviolet;
         border:1px solid
     }
-
-    #hedearInfo{
+    /* info-----------------  */
+    #info{
+        margin: 0px 0px;
+    }
+    #hedearInfo2{
         display: flex;
         justify-content: center;
         padding-bottom: 40px;
         padding-top: 20px;
-        /* justify-content: center;
-        align-items: center;
-        padding-top: 20px;
-        padding-bottom: 40px; */
+
      
     }
     #centerContent{
         display: flex;
-        /* height:calc(80vh - 88px); */
+        flex-direction: row;
         justify-content: space-between;
+        align-items: stretch;
         
         
     }
@@ -236,10 +507,8 @@
         display: flex;
         padding-right: 2rem;
         flex-direction: column;
-        /* flex-grow: 0;
-        flex-shrink: 0;
-        flex-basis: calc(45%); */
         flex: 1;
+        /* width: 50%; */
         
         
         
@@ -248,6 +517,7 @@
     padding-bottom: 10px;
     padding-top: 40px;
     direction: rtl;
+    margin: 0px 0px;
     }
     #pContent{
         direction:rtl;
@@ -266,12 +536,12 @@
         background-size: cover;
         background-position: center center;
         padding-left: 10px;
-        /* height: 60vh; */
-        /* height: 50vw; */
-        /* height: 400px;
-        width: 650px; */
-        flex: 1;
-        /* flex-grow: 60%; */
+
+       flex: 1;
+
+        /* width: 50%; */
+
+
     }
     #extraInfo2{
         cursor: pointer;
@@ -286,6 +556,19 @@
         padding-top: 5px;
 
     }
+    #extraInfo2:hover{
+        cursor: pointer;
+        text-decoration: none;
+        background-color: aliceblue;
+        color: blueviolet;
+        border: 2px black solid;
+       
+        height:2.3rem;
+        width: 7.5rem;
+        border-radius: 5px;
+        text-align: center;
+        padding-top: 5px;
+    }
     #button2info{
         margin-top: 20px;
         display: flex;
@@ -293,46 +576,39 @@
         margin-bottom: 2rem;
 
     }
+
+    /* mainservice---------------------------------- */
     #mainService{
         display: flex;
         flex-direction: column;
-        /* background-color: #E1E1E1; */
         align-items: center;
         justify-content: stretch;
         padding-bottom: 40px;
     margin:100px;
-        /* background-color: aquamarine; */
-        
-        /* height: 40vh; */
-        /* flex-shrink: 0; */
+
     }
     #headerService{
         margin-top: 30px;
     }
     #contentService{
         display: flex;
+        flex-direction: row;
         margin-top: 30px;
-        /* flex: 0 0 calc(30% - 1rem); */
-        /* gap:20px ; */
+
         text-align: right;
         background-color: white;
     }
     #service1{
-        display: flex;
-        /* background-color: brown; */
-        /* flex: 0 0 calc(50% - 1rem);  */
-        
+        display: flex; 
+        flex-direction: row;  
     }
     #service2{
         display: flex;
-        /* background-color: brown; */
-        /* flex: 0 0 calc(50% - 1rem);  */
-        
+        flex-direction: row;
     }
     #service3{
         display: flex;
-        /* background-color: brown; */
-        /* flex: 0 0 calc(50% - 1rem);  */
+        flex-direction: row;
     }
     .serviceBox{
         flex: 1;
@@ -356,6 +632,8 @@
       #image1{
         background-image: url("./images/download2.png");
       }
+
+      /* articles-------------------------------- */
       #mainArticles{
         display: flex;
         flex-direction: column;
@@ -371,6 +649,7 @@
       }
       #contactArticles{
         display: flex;
+        flex-direction: row;
         border-radius: 20px;
         justify-content: space-around;
         width: 100%;
@@ -382,21 +661,23 @@
         height: 350px;
        
         text-decoration: none;
-        color: black;
-        background-color: #E6E3D3;
-        box-shadow: 1px 1px 5px 1px #E6E3D3;
+        color:aliceblue;
+        
+        background-color: #F374E2;
+        
+        border-radius: 9px;
 
       }
       .articles:hover{
         width: 270px;
         height: 370px;
         /* color: white; */
-        background-color: #BFBDB0;
-        box-shadow: 1px 1px 5px 1px #BFBDB0;
+        background-color: #D05BC0;
+        box-shadow: 1px 1px 5px 1px #D05BC0;
       }
       .imgArticles{
        /* background-color: brown; */
-        background-image: url("./images/book1.jpg");
+        background-image: url("./images/purple.jpg");
         background-size: cover;
         background-position: center center;
         border-top-left-radius: 10px;
@@ -421,7 +702,7 @@
         /* gap: 0px 10px; */
         /* padding-right: 0px; */
         width: 100%;
-        padding-top: 5px;
+        padding-top: 60px;
         padding-left: 10px;
         font-size: small;
         justify-content: space-between;
